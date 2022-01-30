@@ -85,7 +85,9 @@ thumbnail: /assets/image-6.jpg
 <!-- /wp:paragraph -->
 
 <!-- wp:syntaxhighlighter/code -->
-<pre class="wp-block-syntaxhighlighter-code">bytes32 hash = hashToSign(order);
+
+```solidity
+bytes32 hash = hashToSign(order);
  
 /* Assert order has not already been approved. */
 require(!approvedOrders[hash]);
@@ -95,7 +97,9 @@ require(!approvedOrders[hash]);
 /* Mark order as approved. */
 approvedOrders[hash] = true
 emit OrderApprovedPartOne(...)
-emit OrderApprovedPartTwo(...)</pre>
+emit OrderApprovedPartTwo(...)
+```
+
 <!-- /wp:syntaxhighlighter/code -->
 
 <!-- wp:paragraph -->
