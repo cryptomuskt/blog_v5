@@ -32,8 +32,8 @@ thumbnail: /assets/image-6.jpg
 <!-- wp:paragraph -->
 <p>ExchangeCore ContractというContractで出品や購入、出品キャンセルなど基本的な機能を提供します。理解する上で欠かせないのが構造体Orderです。Orderは出品やオファーの情報を保持します</p>
 
-      
-      struct Order {
+```javascript
+   struct Order {
           address exchange; //このExchangeCore Contractのaddress
           address maker; // Orderを作成したEOA
           address taker; // Orderを受け入れたEOA
@@ -58,6 +58,10 @@ thumbnail: /assets/image-6.jpg
           uint expirationTime;
           uint salt; // hash値が被るのを防ぐ
       }
+
+```
+      
+   
       
 
 
