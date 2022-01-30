@@ -2,7 +2,7 @@
 template: BlogPost
 path: /remark-kitchen-sink
 date: 2020-02-21T12:12:25.364Z
-title: 'Hello World: The remark Kitchen Sink'
+title: 'Openseaのハッキングの原因について色々と考察してみる'
 thumbnail: /assets/image-6.jpg
 ---
 <!-- wp:paragraph -->
@@ -34,7 +34,8 @@ thumbnail: /assets/image-6.jpg
 <!-- /wp:paragraph -->
 
 <!-- wp:syntaxhighlighter/code -->
-<pre class="wp-block-syntaxhighlighter-code">struct Order {
+      ```Javascript
+      struct Order {
           address exchange; //このExchangeCore Contractのaddress
           address maker; // Orderを作成したEOA
           address taker; // Orderを受け入れたEOA
@@ -58,7 +59,8 @@ thumbnail: /assets/image-6.jpg
           uint listingTime;
           uint expirationTime;
           uint salt; // hash値が被るのを防ぐ
-      }</pre>
+      }
+      ```
 <!-- /wp:syntaxhighlighter/code -->
 
 <!-- wp:paragraph -->
