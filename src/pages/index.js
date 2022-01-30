@@ -21,6 +21,7 @@ const IndexPage = ({
       <Helmet>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
+          <img src="https://raw.githubusercontent.com/cryptomuskt/blog_v5/master/src/images/tech.png" alt="Follow @w3layouts" />
       </Helmet>
       <HeroHeader/>
       <h2>Blog Posts &darr;</h2>
