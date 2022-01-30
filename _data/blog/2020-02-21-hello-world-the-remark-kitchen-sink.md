@@ -32,7 +32,7 @@ thumbnail: /assets/image-6.jpg
 <!-- wp:paragraph -->
 <p>ExchangeCore ContractというContractで出品や購入、出品キャンセルなど基本的な機能を提供します。理解する上で欠かせないのが構造体Orderです。Orderは出品やオファーの情報を保持します</p>
 
-```javascript
+```solidity
    struct Order {
           address exchange; //このExchangeCore Contractのaddress
           address maker; // Orderを作成したEOA
