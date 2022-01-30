@@ -20,6 +20,7 @@ const IndexPage = ({
     <Layout>
       <Helmet>
         <title>{site.siteMetadata.title}</title>
+        <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
   <img src="https://raw.githubusercontent.com/cryptomuskt/blog_v5/master/src/images/tech.png" alt="Follow @w3layouts" />
          <img src="https://engineering.mercari.com/img/ogp/ogp_a.jpg" alt="Follow @w3layouts" />
